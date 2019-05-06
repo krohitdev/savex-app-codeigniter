@@ -218,7 +218,7 @@ class UserModel extends CI_Model {
 
         //api_key available in Firebase Console -> Project Settings -> CLOUD MESSAGING -> Server key
 
-        $server_key = 'AAAAFyP5kX4:APA91bETZPYt66-KUJ_CwoZ9QPiIYN3gLcBEDHeRiz1qqiFyQhlrYHpOnncGmvwLv77J-DXS2m5xj9vQQZg-5E9RWz_rXjgMBpqulGqtySKKw6j-aR_b8RHBwUhyU42m8rze_HS04Zpk';
+        $server_key = ''; //enter firebase server key here
 
         $fields = array("to"=>$target,'notification'=>$data);
 
