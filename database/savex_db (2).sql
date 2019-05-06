@@ -72,16 +72,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`, `email_id`, `profile_image`, `contact_no`, `token`, `about_info`, `created_on`) VALUES
-(1, 'test1', 'c48a597d279a1fbfe7b2b2e4fd056b35', 'kumarrohit00294@gmail.com', 'test2.png', '9653959422', '25485658412540', 'Test info', '2019-04-28 08:21:29'),
-(2, 'test', '123', 'test@nomail.com', 'test.jpg', '2239927201', '111000488481', '', '2019-04-28 08:21:29'),
-(3, 'test', '123', 'test@nomail.com', 'test.jpg', '', '', '', '2019-04-28 08:21:29'),
-(4, 'test', '123', 'test@nomail.com', 'test.jpg', '', '', '', '2019-04-28 08:21:29'),
-(5, 'test', '123', 'test@nomail.com', 'class_Diagram_of_loan21.jpg', '', '', '', '2019-04-28 08:21:29'),
-(6, 'test', '123', 'test@nomail.com', 'class_Diagram_of_loan23.jpg', '', '', '', '2019-04-28 08:21:29'),
-(7, 'test', '123', 'test2@nomail.com', 'class_Diagram_of_loan24.jpg', '9876543220', '', '', '2019-04-28 08:21:29'),
-(8, 'test', 'c54006d06673e9b3833258cb44a2696b', 'test6@nomail.com', 'TyDplgGe8n', '9876543211', '', '', '2019-04-28 08:21:29'),
-(9, 'test', '123', 'test8@nomail.com', 'File15808.jpg', '8988175654', '111000488481', '', '2019-04-28 08:53:59'),
-(10, 'test', '123', 'test9@nomail.com', 'File864715.jpg', '9876543202', '111000488481', '', '2019-04-30 16:53:12');
+
+(8, 'test', 'c54006d06673e9b3833258cb44a2696b', 'test6@nomail.com', 'TyDplgGe8n', '9876543211', '', '', '2019-04-28 08:21:29');
 
 --
 -- Indexes for dumped tables
