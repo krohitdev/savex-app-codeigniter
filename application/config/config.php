@@ -523,6 +523,6 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 /*STRIPE CRENDIENTIALS***/
-$config['stripe_key'] = 'pk_test_gMDb5qLeMqeAWOBh9DROeyet00dO9gLbKr';
+$config['stripe_key'] = '**********************'; //enter stripe key here
 
-$config['stripe_secret'] = 'sk_test_N6DvftMr6HEkLC6WIRqwFjxn006hS4BkIu';
+$config['stripe_secret'] = '*******************'; // enter stripe secret key here
