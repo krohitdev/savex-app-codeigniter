@@ -410,17 +410,17 @@ class UserController extends CI_Controller {
 	
 			$config = Array(
 				'protocol' => 'smtp',
-				'smtp_host' => 'mail.techeytech.com',
-				'smtp_port' => 587,
-				'smtp_user' => 'noreply@techeytech.com',
-				'smtp_pass' => 'S?z4qiD.kt{G',
+				'smtp_host' => '**********', //enter smtp hostname
+				'smtp_port' => '***', //port
+				'smtp_user' => '**********', //enter smtp username
+				'smtp_pass' => '**********', //enter smtp password
 				'mailtype'  => 'html', 
 				'charset'   => 'iso-8859-1'
 			);
 			
 			$this->load->library('email', $config);
 			$this->email->set_newline("\r\n");
-			$this->email->from('noreply@techeytech.com', 'techeytech');
+			$this->email->from('********', '****'); //from username 
 			$this->email->to($email); 
 			$this->email->subject('Change your password');
 			$this->email->message("Your password has been changed. Please login with this password: &nbsp;  ".$password);  
